@@ -179,7 +179,6 @@ while timeStart + windowSize <= max(Time)
  
     % Calcola la variazione percentuale rispetto al valore medio della baseline
     percentChange = (meanDiameterWindow / meanDiameterBaseline - 1) * 100;
-    percentChange = percentChange/2;
 
     percentChanges = [percentChanges; percentChange];
     
